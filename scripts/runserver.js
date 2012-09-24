@@ -17,12 +17,16 @@ $ node runserver.js
 
 Access application:
 Start browser and navigate to
-http://localhost:8080/index.html
+http://localhost:8080/public/index.html
+
+Access functional tests:
+Start browser and navigate to
+http://localhost:8080/test/funcunit/index.html
 
 */
 
 // CHANGE THIS TO POINT TO THE CORRECT PATH
-var dir = '/Users/eero/sc5/skeletor/skeletor/public/';
+var dir = '/Users/eero/sc5/skeletor/skeletor/';
 
 var connect = require('connect');
 connect.createServer(
